@@ -31,6 +31,6 @@ public class HealthcareWorkerTeam implements HealthcareServiceable {
         for (HealthcareServiceable member : members) {
             sum_ += member.getPrice();
         }
-        return Sum_;
+        return sum_;
     }
 }
